@@ -62,7 +62,7 @@ const Index = () => {
             <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-indigo-400 to-fuchsia-500 flex items-center justify-center">
               <Icon name="Play" size={16} className="text-white" />
             </div>
-            <span className="font-display font-extrabold text-lg tracking-tight">LUMEN</span>
+            <span className="font-display font-extrabold text-lg tracking-tight">MAXON CREATORS</span>
           </div>
           <div className="hidden lg:flex items-center gap-1">
             {NAV.map((n) => (
@@ -263,9 +263,9 @@ const Index = () => {
         <footer className="pt-12 text-center text-white/40 text-sm">
           <div className="flex items-center justify-center gap-2 mb-3">
             <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-indigo-400 to-fuchsia-500 flex items-center justify-center"><Icon name="Play" size={12} /></div>
-            <span className="font-display font-bold text-white">LUMEN</span>
+            <span className="font-display font-bold text-white">MAXON CREATORS</span>
           </div>
-          © 2026 LUMEN. Все платежи защищены PayPal.
+          © 2026 MAXON CREATORS. Все платежи защищены PayPal.
         </footer>
       </main>
     </div>
