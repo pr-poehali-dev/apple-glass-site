@@ -82,7 +82,7 @@ const translations: Record<string, T> = {
     nav_home: 'Главная', nav_library: 'Видеотека', nav_subscribe: 'Подписка',
     nav_profile: 'Профиль', nav_manage: 'Управление', nav_contacts: 'Контакты', nav_login: 'Войти',
     hero_badge: 'Новые видео каждую неделю',
-    hero_title1: 'Твой контент.', hero_title2: 'Твой заработок.',
+    hero_title1: 'Добро пожаловать', hero_title2: 'в мир волшебства.',
     hero_desc: 'Закрытая видеотека по платной подписке. Загружай видео, открывай доступ за деньги и получай выплаты через PayPal.',
     hero_cta: 'Оформить подписку', hero_cta2: 'Смотреть видеотеку',
     library_title: 'Видеотека', library_sub: 'Эксклюзивный контент в одном месте', library_premium: 'Premium',
