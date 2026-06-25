@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Detect language by IP",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": { "lang": "string" },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
