@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Icon from '@/components/ui/icon';
 import { useLang } from '@/lib/LangContext';
 import { LANG_LABELS, SUPPORTED_LANGS } from '@/lib/i18n';
@@ -59,6 +60,7 @@ function LangSwitcher() {
 const Index = () => {
   const [active, setActive] = useState('home');
   const { t, loading } = useLang();
+  const navigate = useNavigate();
 
   const NAV = [
     { id: 'home', label: t.nav_home, icon: 'Home' },
@@ -136,7 +138,7 @@ const Index = () => {
           </div>
           <div className="flex items-center gap-2">
             <LangSwitcher />
-            <button className="rounded-full bg-white text-[#05060a] px-5 py-2 text-sm font-display font-semibold hover:scale-105 transition-transform">
+            <button onClick={() => navigate('/admin')} className="rounded-full bg-white text-[#05060a] px-5 py-2 text-sm font-display font-semibold hover:scale-105 transition-transform">
               {t.nav_login}
             </button>
           </div>

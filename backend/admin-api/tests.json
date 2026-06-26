@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Login with wrong password",
+      "method": "POST",
+      "path": "/?action=login",
+      "body": { "password": "wrong" },
+      "expectedStatus": 401
+    },
+    {
+      "name": "Get settings unauthorized",
+      "method": "GET",
+      "path": "/?action=settings",
+      "expectedStatus": 401
+    }
+  ]
+}
